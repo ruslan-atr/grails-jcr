@@ -1,6 +1,37 @@
+# web application files
+/web-app
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# IDE support files
 *.iws
-derby.log
-repository
-repository.xml
-out
-test-output
+*.iml
+*.ipr
+.idea
+.settings
+.classpath
+.project
+
+# local libs
+/lib
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+/web-app/WEB-INF/classes
+
+# build files
+/target
+*.zip
+*.jar
+plugin.xml
+
+# mics
+.DS_Store
